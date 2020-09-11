@@ -1,0 +1,24 @@
+.navigation {
+  .navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: $primary;
+  }
+
+  .nav-link.active {
+    background: white;
+    border-radius: 0.25rem;
+  }
+
+  form {
+    .form-control {
+      flex: 1;
+      border: none;
+      border-radius: 0;
+    }
+
+    .btn {
+      border-radius: 0;
+    }
+  }
+}
