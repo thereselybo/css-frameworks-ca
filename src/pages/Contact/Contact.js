@@ -7,10 +7,10 @@ function Contact() {
   return (
     <Container className="py-4">
       <Row>
-        <Col xs={12} md={6, {order: 2}} >
+        <Col xs={12} md={6} className="order-md-2">
           <ContactInfo />
         </Col>
-        <Col xs={12} md={6, {order: 1}}>
+        <Col xs={12} md={6} className="order-md-1">
           <ContactForm />
         </Col>
       </Row>
